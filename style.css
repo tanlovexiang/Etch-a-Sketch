@@ -1,0 +1,29 @@
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 960px;
+    height: 960px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-square
+{
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+/* .grid-square:hover{
+    background-color: black;
+} */
+
+#btn {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
